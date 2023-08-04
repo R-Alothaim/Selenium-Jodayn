@@ -203,4 +203,73 @@ public void servicesimages(){
         email.findElement(By.name("EMAIL")).sendKeys("Test@test.test");
         email.findElement(By.xpath("//input[@type='submit'][@value='SUBSCRIBE']")).click();
         }
+        @Test(description = "This is for partners")
+        public void partners(){
+        WebElement Prosci = driver.findElement(By.xpath("//img[@src='https://www.jodayn.com/wp-content/uploads/2018/12/Prosci-Affiliate-Logo-RGB202017-2-170x87.png']"));
+        WebElement Bizdesign = driver.findElement(By.xpath("//img[@src='https://www.jodayn.com/wp-content/uploads/2017/12/partner-1.png']"));
+        WebElement Architect = driver.findElement(By.xpath("//img[@src='https://www.jodayn.com/wp-content/uploads/2017/12/partner-2.png']"));
+         WebElement SOASchool = driver.findElement(By.xpath("//img[@src='https://www.jodayn.com/wp-content/uploads/2017/12/partner-3.png']"));
+
+        Assert.assertTrue(Prosci.isDisplayed() && Bizdesign.isDisplayed() && Architect.isDisplayed() && SOASchool.isDisplayed());
+        }
+        @Test(description = "This is for footer links")
+        public void footerlinks(){
+                String [] links = {
+"https://www.jodayn.com/",
+"https://www.jodayn.com/",                       
+"https://www.jodayn.com/privacy-policy/",
+"https://www.jodayn.com/about-us/",
+"https://www.jodayn.com/news/",
+"https://www.jodayn.com/jobs/",
+"https://www.jodayn.com/contact-us/",
+"https://www.jodayn.com/management/",
+"https://www.jodayn.com/testing/",
+"https://www.jodayn.com/consulting/",
+"https://www.jodayn.com/software-solutions/",
+"https://www.jodayn.com/training/",
+"https://www.jodayn.com/#",
+"https://www.jodayn.com/#",
+"https://www.jodayn.com/#",
+"https://www.jodayn.com/#",
+"https://www.facebook.com/jodayn",
+"https://twitter.com/jodayn",
+"https://www.linkedin.com/company/2312129"
+                };
+        WebElement footer = driver.findElement(By.className("footer-contents"));
+        List<WebElement> footerlinks = footer.findElements(By.tagName("a"));
+        for (int i = 0; i < footerlinks.size(); i++) {
+        String link = footerlinks.get(i).getAttribute("href");
+        Assert.assertEquals(link, links[i]);
+        }       
+        }
+        @Test(description = "This is for footer text")
+        public void footertext(){
+        String [] text = {
+                "","Home",
+"Privacy Policy",
+"About Us",
+"News",
+"Careers",
+"Contact Us",
+"Our Leadership",
+"Software Testing",
+"IT Consulting",
+"IT Solutions",
+"Training",
+"JODAYN",
+"P.O. Box 340598, Riyadh 11333, KSA.",
+"+966.11.4661406",
+"+966.11.4661398",
+"","","",
+"Copyright \u00A9 2018 Jodayn. All Rights Reserved"
+        };
+        WebElement footer = driver.findElement(By.className("footer-contents"));
+        List<WebElement> footertext = footer.findElements(new ByAll(By.tagName("a"),By.tagName("p")));
+        for (int i = 0; i < footertext.size(); i++) {
+        String t = footertext.get(i).getText();
+        Assert.assertEquals(t, text[i]);
+
+        }
 }
+        }
+        

@@ -1,97 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-04T03:06:33 AST" name="Suite1" finished-at="2023-08-04T03:07:33 AST" duration-ms="59560">
+  <suite started-at="2023-08-04T12:51:12 AST" name="Suite1" finished-at="2023-08-04T12:52:58 AST" duration-ms="106619">
     <groups>
     </groups>
-    <test started-at="2023-08-04T03:06:33 AST" name="Regression1" finished-at="2023-08-04T03:07:33 AST" duration-ms="59560">
+    <test started-at="2023-08-04T12:51:12 AST" name="Regression" finished-at="2023-08-04T12:52:58 AST" duration-ms="106619">
       <class name="com.jodayn.HomePage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:33 AST" name="setup" finished-at="2023-08-04T03:06:42 AST" duration-ms="9138" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:12 AST" name="setup" finished-at="2023-08-04T12:51:21 AST" duration-ms="9111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="images()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:42 AST" name="images" description="This is for images" finished-at="2023-08-04T03:06:43 AST" duration-ms="143" status="PASS">
+        <test-method signature="emailsubscription()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:21 AST" name="emailsubscription" description="This is for Email subscription" finished-at="2023-08-04T12:51:25 AST" duration-ms="3845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailsubscription -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:25 AST" name="close" finished-at="2023-08-04T12:51:25 AST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:25 AST" name="setup" finished-at="2023-08-04T12:51:32 AST" duration-ms="7415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="footerlinks()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:32 AST" name="footerlinks" description="This is for footer links" finished-at="2023-08-04T12:51:33 AST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerlinks -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:33 AST" name="close" finished-at="2023-08-04T12:51:33 AST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:33 AST" name="setup" finished-at="2023-08-04T12:51:40 AST" duration-ms="7392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="footertext()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:40 AST" name="footertext" description="This is for footer text" finished-at="2023-08-04T12:51:40 AST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footertext -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:40 AST" name="close" finished-at="2023-08-04T12:51:41 AST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:41 AST" name="setup" finished-at="2023-08-04T12:51:48 AST" duration-ms="7441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="images()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:48 AST" name="images" description="This is for images" finished-at="2023-08-04T12:51:48 AST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- images -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:43 AST" name="close" finished-at="2023-08-04T03:06:43 AST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:48 AST" name="close" finished-at="2023-08-04T12:51:48 AST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:43 AST" name="setup" finished-at="2023-08-04T03:06:49 AST" duration-ms="6432" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:48 AST" name="setup" finished-at="2023-08-04T12:51:56 AST" duration-ms="7384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="links()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:49 AST" name="links" description="This is for menu links" finished-at="2023-08-04T03:06:50 AST" duration-ms="727" status="PASS">
+        <test-method signature="links()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:56 AST" name="links" description="This is for menu links" finished-at="2023-08-04T12:51:56 AST" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- links -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:50 AST" name="close" finished-at="2023-08-04T03:06:50 AST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:56 AST" name="close" finished-at="2023-08-04T12:51:56 AST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:50 AST" name="setup" finished-at="2023-08-04T03:06:58 AST" duration-ms="7590" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:51:56 AST" name="setup" finished-at="2023-08-04T12:52:04 AST" duration-ms="7413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logo()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:58 AST" name="logo" description="This is for logo" finished-at="2023-08-04T03:06:58 AST" duration-ms="38" status="PASS">
+        <test-method signature="logo()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:04 AST" name="logo" description="This is for logo" finished-at="2023-08-04T12:52:04 AST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:58 AST" name="close" finished-at="2023-08-04T03:06:58 AST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:04 AST" name="close" finished-at="2023-08-04T12:52:04 AST" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:06:58 AST" name="setup" finished-at="2023-08-04T03:07:12 AST" duration-ms="13690" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:04 AST" name="setup" finished-at="2023-08-04T12:52:11 AST" duration-ms="7326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="menu()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:12 AST" name="menu" description="This is for menu " finished-at="2023-08-04T03:07:12 AST" duration-ms="162" status="PASS">
+        <test-method signature="menu()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:11 AST" name="menu" description="This is for menu " finished-at="2023-08-04T12:52:11 AST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menu -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:12 AST" name="close" finished-at="2023-08-04T03:07:12 AST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:11 AST" name="close" finished-at="2023-08-04T12:52:12 AST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:12 AST" name="setup" finished-at="2023-08-04T03:07:19 AST" duration-ms="7539" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:12 AST" name="setup" finished-at="2023-08-04T12:52:19 AST" duration-ms="7515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="socialMedia()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:19 AST" name="socialMedia" description="This is for social media" finished-at="2023-08-04T03:07:20 AST" duration-ms="99" status="PASS">
+        <test-method signature="partners()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:19 AST" name="partners" description="This is for partners" finished-at="2023-08-04T12:52:19 AST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partners -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:19 AST" name="close" finished-at="2023-08-04T12:52:19 AST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:19 AST" name="setup" finished-at="2023-08-04T12:52:27 AST" duration-ms="7453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="servicesimages()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:27 AST" name="servicesimages" description="This is for services images" finished-at="2023-08-04T12:52:27 AST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesimages -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:27 AST" name="close" finished-at="2023-08-04T12:52:28 AST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:28 AST" name="setup" finished-at="2023-08-04T12:52:35 AST" duration-ms="7291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="serviceslinks()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:35 AST" name="serviceslinks" description="This is for services links" finished-at="2023-08-04T12:52:35 AST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceslinks -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:35 AST" name="close" finished-at="2023-08-04T12:52:35 AST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:35 AST" name="setup" finished-at="2023-08-04T12:52:42 AST" duration-ms="7246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="socialMedia()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:42 AST" name="socialMedia" description="This is for social media" finished-at="2023-08-04T12:52:42 AST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:20 AST" name="close" finished-at="2023-08-04T03:07:20 AST" duration-ms="627" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:42 AST" name="close" finished-at="2023-08-04T12:52:43 AST" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:20 AST" name="setup" finished-at="2023-08-04T03:07:26 AST" duration-ms="6291" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:43 AST" name="setup" finished-at="2023-08-04T12:52:50 AST" duration-ms="7536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="socialMediaLinks()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:26 AST" name="socialMediaLinks" description="This is for social media links" finished-at="2023-08-04T03:07:27 AST" duration-ms="168" status="PASS">
+        <test-method signature="socialMediaLinks()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:50 AST" name="socialMediaLinks" description="This is for social media links" finished-at="2023-08-04T12:52:50 AST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMediaLinks -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:27 AST" name="close" finished-at="2023-08-04T03:07:27 AST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:50 AST" name="close" finished-at="2023-08-04T12:52:51 AST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:27 AST" name="setup" finished-at="2023-08-04T03:07:33 AST" duration-ms="5729" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:51 AST" name="setup" finished-at="2023-08-04T12:52:58 AST" duration-ms="7535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="title()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:33 AST" name="title" description="This is for title" finished-at="2023-08-04T03:07:33 AST" duration-ms="10" status="PASS">
+        <test-method signature="title()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:58 AST" name="title" description="This is for title" finished-at="2023-08-04T12:52:58 AST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- title -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@795cd85e]" started-at="2023-08-04T03:07:33 AST" name="close" finished-at="2023-08-04T03:07:33 AST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-04T12:52:58 AST" name="close" finished-at="2023-08-04T12:52:58 AST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.jodayn.HomePage -->
-    </test> <!-- Regression1 -->
+    </test> <!-- Regression -->
   </suite> <!-- Suite1 -->
 </testng-results>
