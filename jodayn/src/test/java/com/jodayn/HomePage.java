@@ -83,17 +83,10 @@ public void socialMediaLinks(){
 @Test(description = "This is for menu links")
 public void links(){
         String [] links = {"https://www.jodayn.com/",
-                "https://www.facebook.com/jodayn",
-                "https://twitter.com/jodayn",
-                "https://www.linkedin.com/company/2312129",
-                "https://www.jodayn.com/#",
-                "https://www.jodayn.com/#menu",
-                "https://www.jodayn.com/",
                 "https://www.jodayn.com/about-us/",
                 "https://www.jodayn.com/management/",
                 "https://www.jodayn.com/news/",
-                "https://www.jodayn.com/jobs/",
-                "https://www.jodayn.com/contact-us/",
+                "https://www.jodayn.com/jobs/","https://www.jodayn.com/contact-us/",
                 "https://www.jodayn.com/testing/",
                 "https://www.jodayn.com/#",
                 "https://www.jodayn.com/consulting/",
@@ -104,29 +97,18 @@ public void links(){
                 "https://www.jodayn.com/training-courses/",
                 "https://www.jodayn.com/prosci-change-management/",
                 "https://www.jodayn.com/prosci-methodology/",
-                "https://www.jodayn.com/jodayn-blog/",
-                "https://www.jodayn.com/",
-                "https://www.jodayn.com/about-us/",
-                "https://www.jodayn.com/management/",
-                "https://www.jodayn.com/news/",
-                "https://www.jodayn.com/jobs/",
-                "https://www.jodayn.com/contact-us/",
-                "https://www.jodayn.com/testing/",
-                "https://www.jodayn.com/#",
-                "https://www.jodayn.com/consulting/",
-                "https://www.jodayn.com/software-solutions/",
-                "https://www.jodayn.com/cybersecurity-services/"
+                "https://www.jodayn.com/jodayn-blog/"
                 };
-       WebElement lin = driver.findElement(By.className("menu-item"));
-       for (int i = 0; i <links.length; i++) {
-                String link = lin.findElements(By.xpath("//a")).get(i).getAttribute("href");
+        WebElement lin = driver.findElement(By.id("menu"));
+        for (int i = 0; i <links.length; i++) {
+                String link = lin.findElements(By.tagName("a")).get(i).getAttribute("href");
                 Assert.assertEquals(link,links[i]);
-
+        }
         }
 
 
 
-}
+
 @Test(description = "This is for menu ")
 public void menu(){
                WebElement About = driver.findElement(By.xpath("//a[text()='About Us']"));
@@ -162,4 +144,63 @@ public void images(){
                 WebElement image9 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/Depositphotos_101357806_original-100x50.jpg']"));
                  WebElement image10 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/saudi-vision-2030-100x50.png']"));
 }
+@Test(description = "This is for services links")
+public void serviceslinks(){
+        WebElement services = driver.findElement(By.className("service-contents"));
+        String [] links={"https://www.jodayn.com/testing/",
+                "https://www.jodayn.com/consulting/",
+                "https://www.jodayn.com/training/",
+                "https://www.jodayn.com/software-solutions/"};
+        List<WebElement> servicesList = services.findElements(By.cssSelector("a[href^='https']"));
+        for (int i = 0; i < servicesList.size(); i++) {
+                String link = servicesList.get(i).getAttribute("href");
+                Assert.assertEquals(link,links[i]);
+        }
+}
+@Test(description = "This is for services images")
+public void servicesimages(){
+        String [] links = {
+"https://www.jodayn.com/wp-content/uploads/2018/01/82-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/admin-ajax1-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/admin-ajax-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/30-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/6-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/4-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/3-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/2-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/006BzmHj_400x400-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/0-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/04/5-2-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/02/Gazt-logo-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/admin-ajax-300x300.png",
+"https://www.jodayn.com/wp-content/uploads/2018/01/admin-ajax-1-300x300.png",
+"https://www.jodayn.com/wp-content/uploads/2018/01/admin-ajax-2-copy-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/admin-ajax-3-copy-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/82-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/admin-ajax1-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/admin-ajax-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/01/30-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/6-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/4-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/3-300x300.jpg",
+"https://www.jodayn.com/wp-content/uploads/2018/05/2-300x300.jpg"};
+        WebElement services = driver.findElement(By.className("owl-carousel-clients"));
+        for (int i = 0; i < links.length; i++) {
+                
+        
+       String img = services.findElements(By.tagName("img")).get(i).getAttribute("src");
+        Assert.assertEquals(img,links[i]);
+        }
+        }
+ @Test(description = "This is for Email subscription")
+        public void emailsubscription(){
+        WebElement email = driver.findElement(By.id("wp_editor_widget-2"));
+        String e = email.findElement(By.tagName("h3")).getText();
+        Assert.assertEquals(e, "EMAIL SIGN UP");
+        e = email.findElement(By.tagName("p")).getText();
+        Assert.assertEquals(e,"Stay connected to our latest updates by joining our mailing list.");
+        email = driver.findElement(By.className("signup-box"));
+        email.findElement(By.name("EMAIL")).sendKeys("Test@test.test");
+        email.findElement(By.xpath("//input[@type='submit'][@value='SUBSCRIBE']")).click();
+        }
 }
