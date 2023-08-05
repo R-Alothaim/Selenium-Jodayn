@@ -18,6 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 import static org.junit.Assert.assertArrayEquals;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
@@ -32,14 +33,14 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
 
-public class HomePage {
-         WebDriver driver;
+public class HomePage extends com.TestBase.BaseTest{
+         public HomePage() throws IOException {
+                super();
+                //TODO Auto-generated constructor stub
+        }
         @BeforeMethod
-        public void setup() {
-        WebDriverManager.chromedriver().setup();
-         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.get("https://jodayn.com/");
+        public void before() {
+        setup(prop.getProperty("URL"));
         }
 
         @AfterMethod

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNGTest-93d3d819-46c7-4a9c-8fd6-74a9b000ee16"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.083">
+    <properties></properties>
+
+
+
+            <testcase
+                name="title"
+                time="0.083"
+                classname="com.jodayn.HomePage">
+            </testcase>
+</testsuite>
