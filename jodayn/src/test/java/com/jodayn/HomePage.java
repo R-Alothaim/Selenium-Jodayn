@@ -131,19 +131,58 @@ public void menu(){
 
 }
 @Test(groups = "Sanity",description = "This is for images") 
-public void images(){
+public void images() throws InterruptedException{
         driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS); 
-        WebElement image1 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2017/12/software-testing-3-100x50.jpg']"));                
+        WebElement image1 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2017/12/software-testing-3-100x50.jpg']"));          
+        Assert.assertTrue(image1.isDisplayed());    
+        driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+  Thread.sleep(2000);
          WebElement image2 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2021/07/Screenshot_1-copy-100x50.jpg']"));
+                Assert.assertTrue(image2.isDisplayed());
+                driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+  Thread.sleep(2000);
+
+
          //driver.findElement(By.className("tp-rightarrow")).click();
           WebElement image3 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/quality-management1-100x50.jpg']"));
+                Assert.assertTrue(image3.isDisplayed());
+                driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+                  Thread.sleep(2000);
+
            WebElement image4 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/Security-Assessment-1-100x50.jpg']"));
+                Assert.assertTrue(image4.isDisplayed());
+                driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+                  Thread.sleep(2000);
+
             WebElement image5 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/Infrastructure-Architecture-1-100x50.jpg']"));
+                Assert.assertTrue(image5.isDisplayed());
+                driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+                  Thread.sleep(2000);
+
              WebElement image6 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/training-slider-100x50.jpg']"));
+                Assert.assertTrue(image6.isDisplayed());
+                driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+                  Thread.sleep(2000);
+
               WebElement image7 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/business-analysis-100x50.jpg']"));
+                Assert.assertTrue(image7.isDisplayed());
+                
+                driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+                  Thread.sleep(2000);
+
                WebElement image8 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/software-solutions1-100x50.jpg']"));
+                Assert.assertTrue(image8.isDisplayed());
+                driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+                  Thread.sleep(2000);
+
                 WebElement image9 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/Depositphotos_101357806_original-100x50.jpg']"));
+                Assert.assertTrue(image9.isDisplayed());
+                driver.findElement(By.cssSelector(".tp-rightarrow")).click();
+                  Thread.sleep(2000);
+
                  WebElement image10 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/saudi-vision-2030-100x50.png']"));
+                Assert.assertTrue(image10.isDisplayed());
+                
 }
 @Test(groups = "Sanity",description = "This is for services links")
 public void serviceslinks(){
