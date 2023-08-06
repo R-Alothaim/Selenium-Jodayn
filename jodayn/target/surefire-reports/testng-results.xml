@@ -1,169 +1,775 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-05T20:49:10 AST" name="Suite1" finished-at="2023-08-05T20:50:54 AST" duration-ms="103709">
+  <suite started-at="2023-08-06T12:05:23 AST" name="Jodayn" finished-at="2023-08-06T12:08:48 AST" duration-ms="204828">
     <groups>
+      <group name="Sanity">
+        <method signature="HomePage.emailsubscription()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="emailsubscription" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.footerlinks()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="footerlinks" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.footertext()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="footertext" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.images()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="images" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.links()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="links" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.logo()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="logo" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.menu()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="menu" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.partners()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="partners" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.servicesimages()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="servicesimages" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.serviceslinks()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="serviceslinks" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.socialMedia()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="socialMedia" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.socialMediaLinks()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="socialMediaLinks" class="com.jodayn.HomePage"/>
+        <method signature="HomePage.title()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" name="title" class="com.jodayn.HomePage"/>
+        <method signature="ContactUs.ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" name="ContactUs" class="com.jodayn.ContactUs"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2023-08-05T20:49:10 AST" name="Regression" finished-at="2023-08-05T20:50:54 AST" duration-ms="103709">
+    <test started-at="2023-08-06T12:05:23 AST" name="Sanity-test" finished-at="2023-08-06T12:08:48 AST" duration-ms="204828">
       <class name="com.jodayn.HomePage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:10 AST" name="setup" finished-at="2023-08-05T20:49:19 AST" duration-ms="9103" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:23 AST" name="before" finished-at="2023-08-06T12:05:31 AST" duration-ms="7641" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="emailsubscription()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:19 AST" name="emailsubscription" description="This is for Email subscription" finished-at="2023-08-05T20:49:24 AST" duration-ms="4671" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="emailsubscription()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:31 AST" name="emailsubscription" description="This is for Email subscription" finished-at="2023-08-06T12:05:36 AST" duration-ms="4820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailsubscription -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:24 AST" name="close" finished-at="2023-08-05T20:49:24 AST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:36 AST" name="close" finished-at="2023-08-06T12:05:36 AST" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:24 AST" name="setup" finished-at="2023-08-05T20:49:31 AST" duration-ms="6587" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:36 AST" name="before" finished-at="2023-08-06T12:05:42 AST" duration-ms="5830" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="footerlinks()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:31 AST" name="footerlinks" description="This is for footer links" finished-at="2023-08-05T20:49:31 AST" duration-ms="309" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="footerlinks()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:42 AST" name="footerlinks" description="This is for footer links" finished-at="2023-08-06T12:05:42 AST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerlinks -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:31 AST" name="close" finished-at="2023-08-05T20:49:31 AST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:42 AST" name="close" finished-at="2023-08-06T12:05:43 AST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:31 AST" name="setup" finished-at="2023-08-05T20:49:38 AST" duration-ms="6496" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:43 AST" name="before" finished-at="2023-08-06T12:05:50 AST" duration-ms="7253" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="footertext()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:38 AST" name="footertext" description="This is for footer text" finished-at="2023-08-05T20:49:38 AST" duration-ms="214" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="footertext()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:50 AST" name="footertext" description="This is for footer text" finished-at="2023-08-06T12:05:50 AST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footertext -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:38 AST" name="close" finished-at="2023-08-05T20:49:38 AST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:50 AST" name="close" finished-at="2023-08-06T12:05:50 AST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:38 AST" name="setup" finished-at="2023-08-05T20:49:46 AST" duration-ms="7916" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:50 AST" name="before" finished-at="2023-08-06T12:05:57 AST" duration-ms="6208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="images()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:46 AST" name="images" description="This is for images" finished-at="2023-08-05T20:49:46 AST" duration-ms="128" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="images()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:57 AST" name="images" description="This is for images" finished-at="2023-08-06T12:05:57 AST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- images -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:46 AST" name="close" finished-at="2023-08-05T20:49:46 AST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:57 AST" name="close" finished-at="2023-08-06T12:05:57 AST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:46 AST" name="setup" finished-at="2023-08-05T20:49:54 AST" duration-ms="7130" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:05:57 AST" name="before" finished-at="2023-08-06T12:06:04 AST" duration-ms="6529" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="links()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:54 AST" name="links" description="This is for menu links" finished-at="2023-08-05T20:49:54 AST" duration-ms="343" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="links()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:04 AST" name="links" description="This is for menu links" finished-at="2023-08-06T12:06:04 AST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- links -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:54 AST" name="close" finished-at="2023-08-05T20:49:54 AST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:04 AST" name="close" finished-at="2023-08-06T12:06:04 AST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:49:54 AST" name="setup" finished-at="2023-08-05T20:50:03 AST" duration-ms="9055" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:04 AST" name="before" finished-at="2023-08-06T12:06:11 AST" duration-ms="6272" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="logo()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:03 AST" name="logo" description="This is for logo" finished-at="2023-08-05T20:50:03 AST" duration-ms="48" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="logo()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:11 AST" name="logo" description="This is for logo" finished-at="2023-08-06T12:06:11 AST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:03 AST" name="close" finished-at="2023-08-05T20:50:04 AST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:11 AST" name="close" finished-at="2023-08-06T12:06:11 AST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:04 AST" name="setup" finished-at="2023-08-05T20:50:11 AST" duration-ms="7121" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:11 AST" name="before" finished-at="2023-08-06T12:06:17 AST" duration-ms="6062" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="menu()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:11 AST" name="menu" description="This is for menu " finished-at="2023-08-05T20:50:11 AST" duration-ms="196" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="menu()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:17 AST" name="menu" description="This is for menu " finished-at="2023-08-06T12:06:17 AST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menu -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:11 AST" name="close" finished-at="2023-08-05T20:50:11 AST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:17 AST" name="close" finished-at="2023-08-06T12:06:18 AST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:11 AST" name="setup" finished-at="2023-08-05T20:50:17 AST" duration-ms="6080" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:18 AST" name="before" finished-at="2023-08-06T12:06:24 AST" duration-ms="6334" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="partners()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:17 AST" name="partners" description="This is for partners" finished-at="2023-08-05T20:50:17 AST" duration-ms="120" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="partners()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:24 AST" name="partners" description="This is for partners" finished-at="2023-08-06T12:06:24 AST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partners -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:17 AST" name="close" finished-at="2023-08-05T20:50:17 AST" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:24 AST" name="close" finished-at="2023-08-06T12:06:24 AST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:17 AST" name="setup" finished-at="2023-08-05T20:50:24 AST" duration-ms="6969" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:24 AST" name="before" finished-at="2023-08-06T12:06:31 AST" duration-ms="6467" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="servicesimages()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:24 AST" name="servicesimages" description="This is for services images" finished-at="2023-08-05T20:50:25 AST" duration-ms="471" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="servicesimages()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:31 AST" name="servicesimages" description="This is for services images" finished-at="2023-08-06T12:06:31 AST" duration-ms="577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- servicesimages -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:25 AST" name="close" finished-at="2023-08-05T20:50:25 AST" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:31 AST" name="close" finished-at="2023-08-06T12:06:32 AST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:25 AST" name="setup" finished-at="2023-08-05T20:50:33 AST" duration-ms="7451" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:32 AST" name="before" finished-at="2023-08-06T12:06:38 AST" duration-ms="6429" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="serviceslinks()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:33 AST" name="serviceslinks" description="This is for services links" finished-at="2023-08-05T20:50:33 AST" duration-ms="92" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="serviceslinks()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:38 AST" name="serviceslinks" description="This is for services links" finished-at="2023-08-06T12:06:38 AST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serviceslinks -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:33 AST" name="close" finished-at="2023-08-05T20:50:33 AST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:38 AST" name="close" finished-at="2023-08-06T12:06:38 AST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:33 AST" name="setup" finished-at="2023-08-05T20:50:40 AST" duration-ms="7098" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:38 AST" name="before" finished-at="2023-08-06T12:06:45 AST" duration-ms="6616" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="socialMedia()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:40 AST" name="socialMedia" description="This is for social media" finished-at="2023-08-05T20:50:40 AST" duration-ms="104" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="socialMedia()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:45 AST" name="socialMedia" description="This is for social media" finished-at="2023-08-06T12:06:45 AST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:40 AST" name="close" finished-at="2023-08-05T20:50:40 AST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:45 AST" name="close" finished-at="2023-08-06T12:06:45 AST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:40 AST" name="setup" finished-at="2023-08-05T20:50:46 AST" duration-ms="5912" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:45 AST" name="before" finished-at="2023-08-06T12:06:51 AST" duration-ms="5975" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="socialMediaLinks()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:46 AST" name="socialMediaLinks" description="This is for social media links" finished-at="2023-08-05T20:50:47 AST" duration-ms="223" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="socialMediaLinks()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:51 AST" name="socialMediaLinks" description="This is for social media links" finished-at="2023-08-06T12:06:52 AST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMediaLinks -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:47 AST" name="close" finished-at="2023-08-05T20:50:47 AST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:52 AST" name="close" finished-at="2023-08-06T12:06:52 AST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:47 AST" name="setup" finished-at="2023-08-05T20:50:53 AST" duration-ms="6655" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:52 AST" name="before" finished-at="2023-08-06T12:06:58 AST" duration-ms="6211" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="title()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:53 AST" name="title" description="This is for title" finished-at="2023-08-05T20:50:53 AST" duration-ms="11" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="title()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:58 AST" name="title" description="This is for title" finished-at="2023-08-06T12:06:58 AST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- title -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@14dd9eb7]" started-at="2023-08-05T20:50:53 AST" name="close" finished-at="2023-08-05T20:50:54 AST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.HomePage@5c5eefef]" started-at="2023-08-06T12:06:58 AST" name="close" finished-at="2023-08-06T12:06:58 AST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.jodayn.HomePage -->
-    </test> <!-- Regression -->
-  </suite> <!-- Suite1 -->
+      <class name="com.jodayn.ContactUs">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:06:59 AST" name="before" finished-at="2023-08-06T12:07:05 AST" duration-ms="6353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:05 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:07:08 AST" duration-ms="2679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:08 AST" name="close" finished-at="2023-08-06T12:07:08 AST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:08 AST" name="before" finished-at="2023-08-06T12:07:14 AST" duration-ms="5824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:14 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:07:16 AST" duration-ms="2491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:16 AST" name="close" finished-at="2023-08-06T12:07:17 AST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:17 AST" name="before" finished-at="2023-08-06T12:07:23 AST" duration-ms="6397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:23 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:07:26 AST" duration-ms="2756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:26 AST" name="close" finished-at="2023-08-06T12:07:26 AST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:26 AST" name="before" finished-at="2023-08-06T12:07:32 AST" duration-ms="6315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:32 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:07:35 AST" duration-ms="2636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:35 AST" name="close" finished-at="2023-08-06T12:07:35 AST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:35 AST" name="before" finished-at="2023-08-06T12:07:41 AST" duration-ms="5866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:41 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:07:44 AST" duration-ms="2496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:44 AST" name="close" finished-at="2023-08-06T12:07:44 AST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:44 AST" name="before" finished-at="2023-08-06T12:07:50 AST" duration-ms="6467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:50 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:07:53 AST" duration-ms="2492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:53 AST" name="close" finished-at="2023-08-06T12:07:53 AST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:53 AST" name="before" finished-at="2023-08-06T12:07:59 AST" duration-ms="6061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:07:59 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:08:02 AST" duration-ms="2611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:02 AST" name="close" finished-at="2023-08-06T12:08:02 AST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:02 AST" name="before" finished-at="2023-08-06T12:08:08 AST" duration-ms="5997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:08 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:08:10 AST" duration-ms="2571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:10 AST" name="close" finished-at="2023-08-06T12:08:11 AST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:11 AST" name="before" finished-at="2023-08-06T12:08:17 AST" duration-ms="6339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:17 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:08:20 AST" duration-ms="2692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:20 AST" name="close" finished-at="2023-08-06T12:08:20 AST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:20 AST" name="before" finished-at="2023-08-06T12:08:26 AST" duration-ms="5858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:26 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:08:29 AST" duration-ms="2696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:29 AST" name="close" finished-at="2023-08-06T12:08:29 AST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:29 AST" name="before" finished-at="2023-08-06T12:08:36 AST" duration-ms="6585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:36 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:08:38 AST" duration-ms="2884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:38 AST" name="close" finished-at="2023-08-06T12:08:39 AST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:39 AST" name="before" finished-at="2023-08-06T12:08:45 AST" duration-ms="6393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ContactUs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:45 AST" name="ContactUs" description="Fill the form" data-provider="sheet" finished-at="2023-08-06T12:08:48 AST" duration-ms="2561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jodayn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@jodayn.jodayn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Q9Q16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.jodayn.ContactUs@38d8f54a]" started-at="2023-08-06T12:08:48 AST" name="close" finished-at="2023-08-06T12:08:48 AST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.jodayn.ContactUs -->
+    </test> <!-- Sanity-test -->
+  </suite> <!-- Jodayn -->
 </testng-results>

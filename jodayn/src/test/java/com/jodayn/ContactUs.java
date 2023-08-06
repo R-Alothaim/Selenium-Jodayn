@@ -15,6 +15,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.beust.ah.A;
+import com.util.TestUtil;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -46,11 +47,9 @@ public class ContactUs extends com.TestBase.BaseTest{
   //@Parameters({"URL"})
   @BeforeMethod(groups = "Sanity" )
   public void before() {
-    setup(prop.getProperty("URL"));
+    setup();
 
-     driver.findElement(By.id("toggle")).click();
-    driver.findElement(By.xpath("//a[text()='Contact Us']")).click();;
-    
+   
 
     
 
@@ -60,20 +59,22 @@ public class ContactUs extends com.TestBase.BaseTest{
   public void close() {
   driver.quit();
   }
-  @Test( groups = "Sanity" ,priority = 1 , description = "Fill the form", dataProvider = "Contact")
-  public void ContactUs(String name, String phone) {
+  @Test( groups = "Sanity" ,priority = 1 , description = "Fill the form", dataProvider = "sheet")
+  public void ContactUs(String name,String company, String email, String subject,String sub, String message, String captcha) {
+      driver.findElement(By.id("toggle")).click();
+    driver.findElement(By.xpath("//a[text()='Contact Us']")).click();;
+    
  WebElement form = driver.findElement(By.className("row"));
   form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[1]/div/span/input")).sendKeys(name);
-  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[2]/div/span/input")).sendKeys("Jodayn");
-  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[3]/div/span/input")).sendKeys("Jodayn@jodayn.com");
-  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[4]/div/span/input")).sendKeys(phone);
-  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[5]/div/span/input")).sendKeys("Hello Jodayn");
-  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[6]/div/span/select")).sendKeys("Testing");
-  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[7]/div/div/span/textarea")).sendKeys("Testing");
-  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[8]/span/input")).sendKeys("PTU4");
+  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[2]/div/span/input")).sendKeys(company);
+  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[3]/div/span/input")).sendKeys(email);
+  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[4]/div/span/input")).sendKeys(subject);
+  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[5]/div/span/input")).sendKeys(sub);
+  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[7]/div/div/span/textarea")).sendKeys(message);
+  form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[8]/span/input")).sendKeys(captcha);
   form.findElement(By.xpath("//*[@id=\"wpcf7-f5-p12-o2\"]/form/div[2]/div/div[9]/div/input")).click();;
   }
-  @DataProvider
+ /*  @DataProvider
   public Object[][] Contact() {
 Object data [][] = new Object [4][2];
 data [0][0] = "Jodayn";
@@ -85,6 +86,12 @@ data [2][1] = "789";
 data [3][0] = "Nasser";
 data [3][1] = "000";
 return data;
-  }
+  }*/
+  @DataProvider
+  public Object[][] sheet() throws Exception {
+    Object data [][] = TestUtil.getdata("Sheet1");
+    System.out.println(data);
+    return data;
+      }
 }
 

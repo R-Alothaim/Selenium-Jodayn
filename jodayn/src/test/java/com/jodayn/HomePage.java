@@ -38,16 +38,16 @@ public class HomePage extends com.TestBase.BaseTest{
                 super();
                 //TODO Auto-generated constructor stub
         }
-        @BeforeMethod
+        @BeforeMethod(groups = "Sanity")
         public void before() {
-        setup(prop.getProperty("URL"));
+        setup();
         }
 
-        @AfterMethod
+        @AfterMethod(groups = "Sanity")
         public void close() {
         driver.quit();
         }
-@Test(description = "This is for title")
+@Test(groups = "Sanity",description = "This is for title")
 public void title(){
         String expectedResult = "JODAYN";
 
@@ -55,13 +55,13 @@ public void title(){
         String actualTitle = driver.getTitle();
        Assert.assertEquals(actualTitle, expectedResult);
 }
-@Test(description = "This is for logo")
+@Test(groups = "Sanity",description = "This is for logo")
 public void logo(){
      
         WebElement logo = driver.findElement(By.xpath("//img[@alt='logo']"));
         Assert.assertTrue(logo.isDisplayed());
 }
-@Test(description = "This is for social media")
+@Test(groups = "Sanity",description = "This is for social media")
 public void socialMedia(){
        
         WebElement facebook = driver.findElement(By.xpath("//i[@class='fa fa-facebook']"));
@@ -70,7 +70,7 @@ public void socialMedia(){
                 Assert.assertTrue(facebook.isDisplayed() && twitter.isDisplayed() && linkedin.isDisplayed());
 
 }
-@Test(description = "This is for social media links")
+@Test(groups = "Sanity",description = "This is for social media links")
 public void socialMediaLinks(){
        
         WebElement facebook = driver.findElement(By.xpath("//a[@href='https://www.facebook.com/jodayn']"));
@@ -81,7 +81,7 @@ public void socialMediaLinks(){
 
 }
 
-@Test(description = "This is for menu links")
+@Test(groups = "Sanity",description = "This is for menu links")
 public void links(){
         String [] links = {"https://www.jodayn.com/",
                 "https://www.jodayn.com/about-us/",
@@ -110,7 +110,7 @@ public void links(){
 
 
 
-@Test(description = "This is for menu ")
+@Test(groups = "Sanity",description = "This is for menu ")
 public void menu(){
                WebElement About = driver.findElement(By.xpath("//a[text()='About Us']"));
                  WebElement OurLeadership = driver.findElement(By.xpath("//a[text()='Our Leadership']"));
@@ -130,7 +130,7 @@ public void menu(){
                         WebElement Blog = driver.findElement(By.xpath("//a[text()='Blog']"));
 
 }
-@Test(description = "This is for images") 
+@Test(groups = "Sanity",description = "This is for images") 
 public void images(){
         driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS); 
         WebElement image1 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2017/12/software-testing-3-100x50.jpg']"));                
@@ -145,7 +145,7 @@ public void images(){
                 WebElement image9 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/Depositphotos_101357806_original-100x50.jpg']"));
                  WebElement image10 = driver.findElement(By.xpath("//li[@data-thumb='https://www.jodayn.com/wp-content/uploads/2018/04/saudi-vision-2030-100x50.png']"));
 }
-@Test(description = "This is for services links")
+@Test(groups = "Sanity",description = "This is for services links")
 public void serviceslinks(){
         WebElement services = driver.findElement(By.className("service-contents"));
         String [] links={"https://www.jodayn.com/testing/",
@@ -158,7 +158,7 @@ public void serviceslinks(){
                 Assert.assertEquals(link,links[i]);
         }
 }
-@Test(description = "This is for services images")
+@Test(groups = "Sanity",description = "This is for services images")
 public void servicesimages(){
         String [] links = {
 "https://www.jodayn.com/wp-content/uploads/2018/01/82-300x300.jpg",
@@ -193,7 +193,7 @@ public void servicesimages(){
         Assert.assertEquals(img,links[i]);
         }
         }
- @Test(description = "This is for Email subscription")
+ @Test(groups = "Sanity",description = "This is for Email subscription")
         public void emailsubscription(){
         WebElement email = driver.findElement(By.id("wp_editor_widget-2"));
         String e = email.findElement(By.tagName("h3")).getText();
@@ -204,7 +204,7 @@ public void servicesimages(){
         email.findElement(By.name("EMAIL")).sendKeys("Test@test.test");
         email.findElement(By.xpath("//input[@type='submit'][@value='SUBSCRIBE']")).click();
         }
-        @Test(description = "This is for partners")
+        @Test(groups = "Sanity",description = "This is for partners")
         public void partners(){
         WebElement Prosci = driver.findElement(By.xpath("//img[@src='https://www.jodayn.com/wp-content/uploads/2018/12/Prosci-Affiliate-Logo-RGB202017-2-170x87.png']"));
         WebElement Bizdesign = driver.findElement(By.xpath("//img[@src='https://www.jodayn.com/wp-content/uploads/2017/12/partner-1.png']"));
@@ -213,7 +213,7 @@ public void servicesimages(){
 
         Assert.assertTrue(Prosci.isDisplayed() && Bizdesign.isDisplayed() && Architect.isDisplayed() && SOASchool.isDisplayed());
         }
-        @Test(description = "This is for footer links")
+        @Test(groups = "Sanity",description = "This is for footer links")
         public void footerlinks(){
                 String [] links = {
 "https://www.jodayn.com/",
@@ -243,7 +243,7 @@ public void servicesimages(){
         Assert.assertEquals(link, links[i]);
         }       
         }
-        @Test(description = "This is for footer text")
+        @Test(groups = "Sanity",description = "This is for footer text")
         public void footertext(){
         String [] text = {
                 "","Home",
