@@ -5,13 +5,15 @@
 <table>
   <tr>
     <th>Test Cases</th>
-    <th>Passed</th>
-    <th>Failed</th>
+    <th>Pass</th>
+    <th>Failures</th>
+    <th>Errors</th>
     <th>Skipped</th>
   </tr>
   <tr>
     <td>25</td>
     <td>25</td>
+    <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
