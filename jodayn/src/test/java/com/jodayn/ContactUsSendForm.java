@@ -37,10 +37,10 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
 
-public class ContactUs extends com.TestBase.BaseTest{
+public class ContactUsSendForm extends com.TestBase.BaseTest{
 
  
-  public ContactUs() throws IOException {
+  public ContactUsSendForm() throws IOException {
     super();
     //TODO Auto-generated constructor stub
   }
